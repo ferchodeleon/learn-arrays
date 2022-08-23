@@ -1,7 +1,3 @@
-function solution(array) {
-    let newArray = []
-    array.map(word => word.length >= 4 ? newArray.push(word) : null)
-    console.log(newArray);
-};
+const letters = ["a", "b", "c", "d"];
 
-solution(['amor', 'sol', 'piedra', 'día']);
+letters.forEach((item) => console.log("forEach ", item));
