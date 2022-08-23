@@ -20,7 +20,7 @@
     const app = document.getElementById('app');
     listTask.forEach(task => app.innerHTML += `
     <li> ${task.title}
-        <label> Finished task <input type="checkbox" 
+        <label> Finished task <input type="checkbox"
           ${task.isFinish ? 'checked' : undefined}>
         </label>
     </li>`);
