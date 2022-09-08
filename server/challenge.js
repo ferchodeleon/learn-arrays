@@ -3,10 +3,10 @@
 //     return numbers.reduce((currentPrevious, currentActual) => currentPrevious + currentActual)
 // };
 
-function solution(numbers) {
+function solution(title) {
 	// Tu código aquí 👈
 
-	return numbers.every(number => number % 2 == 0)
+	return title.split(" ").join('-')
 };
 
-console.log(solution([2, 4, 6, 8, 11]))
+console.log(solution("La forma de correr Python"))
